@@ -33,6 +33,6 @@ jobs:
     - name: build react app
       run: yarn build  
     - name: install surge
-      run: npn install --global surge
+      run: npm install --global surge
     - name: deploy to surge
       run: surge ./build reactapp2020.surge.sh ${{secrets.SURGE-TOKEN}}
