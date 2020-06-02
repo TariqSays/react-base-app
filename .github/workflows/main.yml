@@ -36,8 +36,3 @@ jobs:
       run: npn intall --global surge
     - name: deploy to surge
       run: surge ./build reactapp2020.surge.sh ${{secrets.SURGE-TOKEN}}
-    # Runs a set of commands using the runners shell
-    - name: Prepare for yarn installation
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
