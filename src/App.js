@@ -12,7 +12,6 @@ function App() {
         <br>
         Hello World From React
         TariqSays
-        </br>
         
         </p>
         <a
